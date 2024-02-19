@@ -1,30 +1,29 @@
-// // const number = [5,2,4,6,1,3];
-// let ascending=number.sort((a, b) => a - b);
-// console.log('Ascending:' +ascending);
-// let descending=number.sort((a, b) => b - a);
-// console.log('Descending:' +descending);
-// let firstDateTime = "12/01/2022 14:00:00";
-// let secondDateTime = "12/01/2021 08:00:00";
-// function calculateTimeDifference(firstDateTime, secondDateTime) {
-//   let firstDate = new Date(firstDateTime);
-//   let secondDate = new Date(secondDateTime);
-//   let difference = Math.abs(firstDate - secondDate);
-//   let days = Math.floor(difference / (1000 * 60 * 60 * 24));
-//   difference -= days * (1000 * 60 * 60 * 24);
-//   let hours = Math.floor(difference / (1000 * 60 * 60));
-//   difference -= hours * (1000 * 60 * 60);
-//   let minutes = Math.floor(difference / (1000 * 60));
-//   difference -= minutes * (1000 * 60);
-//   let seconds = Math.floor(difference / 1000);
-//   return `${days} days | ${hours} hours | ${minutes} minutes | ${seconds} seconds`;
-// }
-// let differenceDateTime = calculateTimeDifference(firstDateTime, secondDateTime);
-// console.log(differenceDateTime);
-// let input=["my","name","is","my","location","is"]
-// // let unique=[]
-// let duplicate=[]
-// let duplicate2=[]
-// let seen=[]
+// const number = [5,2,4,6,1,3];
+ let ascending=number.sort((a, b) => a - b);
+ console.log('Ascending:' +ascending); let descending=number.sort((a, b) => b - a);
+ console.log('Descending:' +descending);
+ let firstDateTime = "12/01/2022 14:00:00";
+let secondDateTime = "12/01/2021 08:00:00";
+ function calculateTimeDifference(firstDateTime, secondDateTime) {
+  let firstDate = new Date(firstDateTime);
+  let secondDate = new Date(secondDateTime);
+  let difference = Math.abs(firstDate - secondDate);
+  let days = Math.floor(difference / (1000 * 60 * 60 * 24));
+  difference -= days * (1000 * 60 * 60 * 24);
+   let hours = Math.floor(difference / (1000 * 60 * 60));
+  difference -= hours * (1000 * 60 * 60);
+   let minutes = Math.floor(difference / (1000 * 60));
+ difference -= minutes * (1000 * 60);
+   let seconds = Math.floor(difference / 1000);
+   return `${days} days | ${hours} hours | ${minutes} minutes | ${seconds} seconds`;
+}
+ let differenceDateTime = calculateTimeDifference(firstDateTime, secondDateTime);
+ console.log(differenceDateTime);
+ let input=["my","name","is","my","location","is"]
+  let unique=[]
+    let duplicate=[]
+ let duplicate2=[]
+ let seen=[]
 
 // for(let arr of input){
 // if(!seen[arr]){
@@ -728,38 +727,36 @@
 // }
 // return result
 //  console.log(4%2);
-// function hi(n){
-//   // let count=1
+   function hi(n){
+  // let count=1
 
-//   let height = 1;
+  let height = 1;
 
         
-//   for (let i = 0; i < n; i++) {
-//       if (i % 2 == 0) {
-//           height *= 2
-//       } else {
-//           height += 1;
-//       }
-//   }
+   for (let i = 0; i < n; i++) {
+      if (i % 2 == 0) {
+         height *= 2
+   } else {        
+   height += 1;      }
+  }
  
-// console.log(height); 
-// // return height;
+ console.log(height); 
+return height;
 
   
-// }
-// hi(4)
-// console.log('---------');
-// hi(3)
+ }
+ hi(4)
+console.log('---------');
+ hi(3)
 
-// function hi(a,b){
-//   while(a<=b){
-//     let b=Math.sqrt(a)
-//     // console.log(a)
-//     if(b%1==0){
-// //       console.log('hi',a);
-//     }
-//     a++
-//   // console.log(b);
+ function hi(a,b){
+  while(a<=b){
+   let b=Math.sqrt(a)
+   console.log(a)
+   if(b%1==0){
+       console.log('hi',a);    
+   a++
+ sole.log(b);
    
 //   }
 // }
