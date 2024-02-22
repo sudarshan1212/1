@@ -25,35 +25,34 @@ let secondDateTime = "12/01/2021 08:00:00";
  let duplicate2=[]
  let seen=[]
 
-// for(let arr of input){
-// if(!seen[arr]){
-//   unique.push(arr)
-//   seen[arr] = 1;
-// }else{  
-//   duplicate.push(arr)
-//   duplicate2.push(arr)
-//   duplicate2.push(arr)
-// }
-// }
+ for(let arr of input){
+ if(!seen[arr]){
+  unique.push(arr)
+   seen[arr] = 1;
+}else{  
+  duplicate.push(arr)
+ duplicate2.push(arr)
+  duplicate2.push(arr)
+ }
+}
 
-// for(let i=0;i<unique.length;i++){    
-//   const index=duplicate.findIndex(data=>data==unique[i])    
-//     if(index!= -1){
-//   unique.splice(index,1)
-//     }  
-// }
-// console.log(unique);
-// console.log(duplicate2);
+ for(let i=0;i<unique.length;i++){    
+ const index=duplicate.findIndex(data=>data==unique[i])    
+   if(index!= -1){
+ unique.splice(index,1)
+   }  
+ }
+ console.log(unique);
+ console.log(duplicate2);
 
 
-// console.log(input);
-// for (let i = 0; i < input.length; i++) {
-// //  console.log(input[i]); 
-//  if(input[i]==input[i+1]|| input[i]==input[i-1]){
-//   duplicate.push(input[i])
-//  }else{
-//   unique.push(input[i])
-//  }
+console.log(input);
+ for (let i = 0; i < input.length; i++) {
+  console.log(input[i]); 
+  if(input[i]==input[i+1]|| input[i]==input[i-1]){
+ duplicate.push(input[i]) }else{
+   unique.push(input[i])
+}
   
 // }
 // console.log(unique);
