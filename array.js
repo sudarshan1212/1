@@ -271,7 +271,7 @@ console.log(input);
  
 //   //  {1: 0, 2: 1, 3: 2}
    
-//   mem[value]=i //{}
+//   mem[value]=i //{}//5:0 it will store in mem mem[value:i]
                  
 //   console.log(mem,i);  
 //   console.log(value);
